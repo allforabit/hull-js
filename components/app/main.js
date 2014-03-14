@@ -19,7 +19,7 @@ Hull.component({
   },
   afterRender: function(data){
     //todo move to extension
-    //this.rivetsTemplate = rivets.bind(this.el, this.dataTest);
+    this.rivetsTemplate = rivets.bind(this.el, this.dataTest);
   },
   afterRemove: function(){
   }
